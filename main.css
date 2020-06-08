@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #ddd;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+html {
+	height: 100%;
+}
+#wrapper {
+	background: #C499A3;
+	max-width: 1240px;
+	margin: 0 auto;
+	/*width: 95%;*/
+}
+#header_wrapper {
+	position: relative;
+}
+#container {
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+	
+}
+#container::after {
+	content: " ";
+	clear: both;
+    display: table;
+}
+.clearfix:before, .clearfix:after {
+    content: '\0020';
+    display: block;
+    /*overflow: hidden;*/
+    /*visibility: hidden;*/
+    width: 0;
+    height: 0;
+}
+
+.logo {
+	width: 25%;
+	float: left;
+	padding: 0;
+	display: inline;
+	
+}
+.logo img {
+    width: 100%;
+    
+}
+@media only screen and (max-width: 767px)
+#Top_bar .menu_wrapper {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+@media only screen and (max-width: 1239px)
+#Top_bar #menu {
+    display: none;
+    height: auto;
+    width: 300px;
+    bottom: auto;
+    top: 100%;
+    right: 1px;
+    position: absolute;
+    margin: 0;
+}
+.menu_wrapper {
+	width: 75%;
+	background: #E7CBD1;
+	float: right;
+	display: inline;
+}
+.menu_wrapper ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu_wrapper ul li {
+	float: left;
+}
+.menu_wrapper::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.menu_wrapper a {
+	display: block;
+	text-decoration: none;
+	color: #894B59;
+	padding: 1.2rem 1rem;
+}
+.menu_wrapper a:hover {
+	background: rgba(0,0,0,.1);
+}
+.main_slider {
+	height: 100%;
+	background: linear-gradient(#E7CBD1,#C499A3);
+	margin: 0;
+	
+}
+#header_wrapper::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.main_slider .wrapper {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper .content {
+	background: #894B59;
+	width: 400px;
+	height: 200px;
+	box-shadow: 0 0 100px rgba(255,255,255,.6);
+	position: relative;
+}
+.title {
+	width: 100%;
+	top: -93px;
+	position: absolute;
+	color: #0ff00;
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+	padding: 20px 0;
+	background: rgba(0,0,0,.2);
+	animation-name: title;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+@keyframes title {
+	0% { top: -93px }
+	100% { top: 0px }
+}
+.ekszer1 {
+	width: 400px;
+	height: 300px;
+	bottom: 50px;
+	left: -500px;
+	background: url('pics/an1.jpg');
+}
+
+.container-fluid {
+	max-width: 1240px;
+}
+
+.card-body {
+	background: #E7CBD1;
+}
