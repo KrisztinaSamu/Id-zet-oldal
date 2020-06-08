@@ -10,7 +10,7 @@ html {
 	height: 100%;
 }
 #wrapper {
-	background: #C499A3;
+	background: linear-gradient(#E7CBD1,#C499A3);
 	max-width: 1240px;
 	margin: 0 auto;
 	/*width: 95%;*/
@@ -69,9 +69,9 @@ html {
 }
 .menu_wrapper {
 	width: 75%;
-	background: #E7CBD1;
+	/*background: #F4E9EB; /*#E7CBD1;*/
 	float: right;
-	display: inline;
+	
 }
 .menu_wrapper ul {
 	margin: 0;
@@ -97,7 +97,7 @@ html {
 }
 .main_slider {
 	height: 100%;
-	background: linear-gradient(#E7CBD1,#C499A3);
+	/*background: linear-gradient(#E7CBD1,#C499A3);*/
 	margin: 0;
 	
 }
